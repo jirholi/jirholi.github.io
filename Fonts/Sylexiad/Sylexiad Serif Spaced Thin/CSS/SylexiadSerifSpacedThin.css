@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'SylexiadSerifSpacedThin';
+	src: url('SylexiadSerifSpacedThin.ttf') format('opentype'),
+       url('SylexiadSerifSpacedThin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SylexiadSerifSpacedThin-Italic';
+	src: url('SylexiadSerifSpacedThin-Italic.ttf') format('opentype'),
+       url('SylexiadSerifSpacedThin-Italic.woff') format('woff');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'SylexiadSerifSpacedThin-Bold';
+	src: url('SylexiadSerifSpacedThin-Bold.ttf') format('opentype'),
+       url('SylexiadSerifSpacedThin-Bold.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SylexiadSerifSpacedThin-BItalic';
+	src: url('SylexiadSerifSpacedThin-BItalic.ttf') format('opentype'),
+       url('SylexiadSerifSpacedThin-BItalic.woff') format('woff');
+	font-weight: 100;
+	font-style: italic;
+}
+
+.sample-css-class {
+  font-family: 'SylexiadSerifSpacedThin', Georgia, serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.sample-css-class-for-an-italic {
+  font-family: 'SylexiadSerifSpacedThin-Italic', Georgia, serif;
+  font-weight: 100;
+  font-style: italic;
+}
